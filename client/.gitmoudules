@@ -1,3 +1,3 @@
 [submodule "mern01/client"]
 path = mern01/client
-url = https://github.com/miamaha41/mern01/client.git
+url = https://github.com/miamaha41/mern01/tree/master/client
