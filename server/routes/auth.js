@@ -3,7 +3,6 @@ import User from "../models/User.js";
 import argon2 from "argon2";
 import jwt from "jsonwebtoken";
 import verifyToken from "../middleware/auth.js";
-// import 'dotenv/config';
 const router = Router();
 
 /**
