@@ -23,7 +23,7 @@ const LoginForm = () => {
     try {
       const loginData = await loginUser(loginForm);
       if (loginData.success) {
-        // navigate("/dashboard");
+        navigate("/dashboard");
       } else {
         setAlert({ type: "danger", message: loginData.message });
         setTimeout(() => {
